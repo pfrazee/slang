@@ -1,0 +1,27 @@
+{
+  "name": "slang",
+  "version": "1.0.0",
+  "description": "Concatenative stack-based search language (turing complete queries).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfraze/slang.git"
+  },
+  "keywords": [
+    "search",
+    "language"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pfraze/slang/issues"
+  },
+  "homepage": "https://github.com/pfraze/slang#readme",
+  "dependencies": {
+    "babel": "^6.0.2",
+    "babel-cli": "^6.0.2"
+  }
+}
