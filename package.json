@@ -22,6 +22,7 @@
   "homepage": "https://github.com/pfraze/slang#readme",
   "dependencies": {
     "babel": "^6.0.2",
-    "babel-cli": "^6.0.2"
+    "babel-cli": "^6.0.2",
+    "porter-stemmer": "^0.9.1"
   }
 }
