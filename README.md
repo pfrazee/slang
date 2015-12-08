@@ -38,6 +38,9 @@ peer alice /find
 
 -- to see the result, we can use /log, which outputs the current stack in the host environment
 peer alice /find /log
+
+-- thanks to stemming, slang can tolerate a typo:
+peer alic /find /log
 ```
 
 Note, for the statement above to have any output, the stack would have to be pre-populated with at least one item that matches `peer alice`.
